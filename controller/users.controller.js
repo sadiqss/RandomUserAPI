@@ -12,7 +12,7 @@ const users = [
 
 
 module.exports.getAllUsers = ((req, res,) => {
-    res.json("users");
+    res.json(users);
 });
 
 module.exports.saveAUser = ((req, res) => {
